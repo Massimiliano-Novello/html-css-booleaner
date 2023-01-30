@@ -1,12 +1,48 @@
-.img-header {
-    height: 150px;
+    /* reset */
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+ 
+ /* Header */
+
+ .container{
+    width: 80%;
+    margin: 0 auto;
+ }
+
+.immagine-header {
+    height: 120px;
     background-image: url(../img/pattern.png);
     background-color: blue;
+    background-size: contain;
+    background-size: 400px 256px;
 }
 
 .logo { 
     height: 50px;
     width: 200px;
-    padding-top: 100px;  
-    margin-left: 10px;
+    padding-top: 60px;  
+    margin-left: 30px;
 }
+
+
+  /* Main */
+ .titolo-main{
+    font-size: 1.5rem;
+    margin-bottom: 2px;
+ }
+
+ .blu{
+    color: blueviolet;
+ }
+
+ .autore{
+    font-size: 1.3rem;
+    color: gray;
+ }
+
+ #data{
+    color: gray;
+ }
