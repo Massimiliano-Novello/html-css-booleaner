@@ -1,6 +1,5 @@
     /* reset */
     *{
-        padding: 0;
         margin: 0;
         box-sizing: border-box;
     }
@@ -8,7 +7,7 @@
  /* Header */
 
  .container{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
  }
 
@@ -30,7 +29,7 @@
 
   /* Main */
  .titolo-main{
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 2px;
  }
 
@@ -46,3 +45,21 @@
  #data{
     color: gray;
  }
+
+ .contenuto{
+    margin-top: 40px;
+ }
+
+
+ .riga1{
+    background-color: blue;
+    color: white;  
+ }
+
+.riga2{
+    background-color: aquamarine;
+}
+
+.riga-gialla{
+    background-color: yellow;
+}
